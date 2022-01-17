@@ -1,0 +1,159 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Courgette;
+    color: darkcyan;
+    margin-bottom: 30px;
+}
+body{
+    background-color: #FDF5DF;
+    /* position: relative; */
+}
+.form{
+    text-align: center;
+}
+
+input{
+    width: 600px;
+    height: 30px;
+    font-size: 19px;
+    padding-left: 10px;
+    font-family: cursive;
+    border-radius: 5px;
+    border: 1px solid #5EBEC4;
+}
+
+input:focus{
+    outline: none;
+    border-color: darkcyan;
+    box-shadow: 0 0 10px cyan;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: cyan;
+}
+
+img{
+    width: 18px;
+    position: absolute;
+    left: 12%;
+    top: 15%;
+}
+
+.todoList{
+   width: 65%;
+   margin: auto;
+   margin-top: 3%;
+}
+.list_content{
+    font-family: cursive;
+    font-size: 19px;
+    cursor: pointer;
+    position: relative;
+    left: 4%;
+}
+
+.list{
+    position: relative;
+}
+
+.check_mark{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid darkcyan;
+    box-shadow: 0 0 5px cyan;
+    text-align: center;
+
+}
+
+.list{
+    margin-bottom: 15px;
+}
+
+.date{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: darkcyan;
+    font-family: cursive;
+}
+
+.time{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkcyan;
+    font-family: cursive;
+}
+
+@media screen and (max-width: 1024px){
+    input{
+        width: 400px;
+    }
+    .list_content{
+        left: 6%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .list_content{
+        left: 10%;
+    }
+    .todoList{
+        right: 15%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    input{
+        width: 250px;
+        margin: auto;
+        height: 25px;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .list_content{
+        font-size: 16px;
+        left: 13%;
+    }
+
+    button{
+        font-size: 18px;
+        width: 130px;
+        height: 35px;
+    }
+    .todoList{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 5%;
+        
+    }
+    .list_content{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        left: 15%;
+    }
+
+    .date{
+        font-size: 17px;
+
+    }
+
+    .time{
+        font-size: 16px;
+    }
+}
